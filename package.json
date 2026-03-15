@@ -12,7 +12,10 @@
   },
   "license": "ISC",
   "author": "Rodion",
-  "type": "commonjs",
+  "type": "module",
+  "bin": {
+     "brain-games": "bin/brain-games.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
